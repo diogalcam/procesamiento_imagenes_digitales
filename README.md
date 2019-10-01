@@ -1,4 +1,4 @@
 # procesamiento_imagenes_digitales
 <html>
-	<h1>Hola</h1>
+	<h3>Prácticas de la asignatura de Procesamiento de Imágenes Digitales</h3>
 </html>
