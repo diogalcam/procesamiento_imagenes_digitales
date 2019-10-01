@@ -13,6 +13,7 @@ cv2.waitKey(0)
 cv2.imshow("b", b)
 cv2.waitKey(0)
 
+
 #b)Pasa la imagen a color a escala de grises de dos formas: usando la fórmula de Y en el modelo YIQ y la de I en el modelo HSI
 i = 1/3*(r+g+b)
 i=i.astype(np.uint8)
