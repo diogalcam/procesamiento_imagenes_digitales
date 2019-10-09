@@ -2,7 +2,7 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 import math
 import numpy as np
-            ######## PARA QUE FUNCIONEN LAS FUNCIONES HAY QUE DESCOMENTAR LA LÍNEA DESEADA Y VICEVERSA. ########
+            ######## PARA QUE FUNCIONEN LAS FUNCIONES HAY QUE DESCOMENTAR LA LÍNEA DESEADA AL FINAL DEL CODIGO Y VICEVERSA. ########
 img = cv.imread("low.jpg", 0)
 filas, columnas = img.shape  # dimensiones de la imagen
 img3 = np.zeros((filas, columnas),dtype=np.uint8)  # devuelve un array de la forma dada con 0's y lo convierte al tipo uint8 para operar con enteros e iremos añadiendo los elementos
@@ -60,9 +60,12 @@ def ecualiza():
 
     cv.imshow("DIFERENCIA",imgDif)
 
-                ######## PARA QUE FUNCIONEN LAS FUNCIONES HAY QUE DESCOMENTAR LA LÍNEA DESEADA Y VICEVERSA. ########
+                ######## PARA QUE FUNCIONEN LAS FUNCIONES HAY QUE DESCOMENTAR LA LÍNEA DESEADA AL FINAL DEL CODIGO Y VICEVERSA. ########
 histograma()
 #transfLog()
 #transPotencia(1/4)
+#transPotencia(1/2)
+#transPotencia(2)
+#transPotencia(3)
 #ecualiza()
 
